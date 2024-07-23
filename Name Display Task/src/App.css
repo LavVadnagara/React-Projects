@@ -1,0 +1,37 @@
+#root {
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Calibri";
+}
+
+.container{
+     border: 1px solid white;
+}
+
+.nameInput {
+     padding: 10px;
+     padding-left: 1rem;
+     font-family: "Calibri";
+     border: 1px solid transparent;
+     border-radius: 10px;
+     font-size: 1rem;
+     margin: 1rem;
+}
+
+.nameInput:hover, .nameInput:focus {
+     outline: none;
+     border-color: #646cff;
+}
+
+.nameListDisplay {
+     height: auto;
+     width: auto;
+     list-style: none;
+     border: 2px solid white;
+     border-radius: 1rem;
+     background-color: gray;
+     padding: 10px;
+     margin: 10px;
+     font-size: 1.7rem;
+     color: black;
+}
