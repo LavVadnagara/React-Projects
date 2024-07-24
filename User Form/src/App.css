@@ -1,0 +1,77 @@
+#root {
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Calibri";
+}
+
+.inputdata {
+     align-items: center;
+     justify-content: center;
+     padding: 1rem;
+}
+
+label {
+     font-size: 1.2rem;
+     margin-bottom: 0.5rem;
+     font-weight: bold;
+}
+
+.nameInput,
+.emailInput {
+     padding: 10px;
+     padding-left: 1rem;
+     font-family: "Calibri";
+     border: 1px solid transparent;
+     border-radius: 10px;
+     font-size: 1rem;
+     margin-top: 0.5rem;
+     width: 100%;
+     max-width: 400px;
+}
+
+.nameInput:hover,
+.nameInput:focus,
+.emailInput:hover,
+.emailInput:focus {
+     outline: none;
+     border-color: #646cff;
+}
+
+button {
+     margin-top: 2rem;
+     padding: 10px 20px;
+     font-size: 1rem;
+     border: none;
+     border-radius: 10px;
+     background-color: #646cff;
+     color: white;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+button:hover {
+     background-color: #535ac6;
+}
+
+.nameListDisplay {
+     list-style: none;
+     border: 5px solid #646cff;
+     border-radius: 1rem;
+     background-color: rgb(200, 200, 220);
+     padding: 1rem;
+     margin: 1.2rem auto;
+     max-width: 30rem;
+     color: black;
+     text-align: left;
+     font-size: 1.5rem;
+}
+
+.nameListDisplay li {
+     margin-bottom: 0.5rem;
+     padding: 0.5rem;
+     border-bottom: 2px solid #646cff;
+}
+
+.nameListDisplay li:last-child {
+     border-bottom: none;
+}
