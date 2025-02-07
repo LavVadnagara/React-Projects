@@ -1,0 +1,77 @@
+/* Default Css */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     scroll-behavior: smooth;
+     scroll-padding-top: 4.5rem;
+}
+
+body {
+     background-color: #FFFFFF;
+     font-family: monospace;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+}
+
+.container {
+     max-width: 75rem;
+     margin: 0 auto;
+     padding: 0 1rem;
+}
+
+/* Header */
+.header {
+     background-color: #00296B;
+     padding: 1rem 0;
+     color: #FFFFFF;
+     display: flex;
+}
+
+.header .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.header .logo {
+     padding-left: 1rem;
+     font-size: 1.6rem;
+     /* color: #00296B; */
+     /* text-shadow: 2px 2px 2px #001940, -1px -1px 5px #003da1; */
+}
+
+nav {
+     padding-left: 16rem;
+}
+
+/* Nav Bar Styling */
+.nav-list {
+     display: flex;
+     gap: 2rem;
+     flex-direction: row;
+}
+
+.nav-item {
+     list-style: none;
+     width: 5.5rem;
+     border-radius: 150px;
+     padding: 0.5rem;
+     background: #003F88;
+     box-shadow: -3px -3px 5px #004080, 3px 3px 5px #0060B0;
+     text-align: center;
+}
+
+.nav-item:active,
+.nav-item:hover {w
+     border-radius: 150px;
+     background: #004080;
+     box-shadow: inset -3px -3px 5px #004080,
+          inset 3px 3px 5px #0060B0;
+}

@@ -56,7 +56,7 @@ function App() {
                          {userList.map((user, index) => (
                               <li key={index}>
                                    <p><strong>Username:</strong> {user.name}</p>
-                                   <p><strong>Email:</strong> {user.email}</p>
+                                   <p><strong>Email:</strong> {user.email}</p><hr />
                                    <p><strong>Notes:</strong> {user.text}</p>
                               </li>
                          ))}
